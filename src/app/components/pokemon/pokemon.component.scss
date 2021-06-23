@@ -11,3 +11,23 @@
     left: 30%;
     transform: translate(-50%,-50%);
   }
+
+  .leftPokemonText{
+    position:sticky;
+    top: 56.52%;
+    left: 0%;
+    transform: translate(-50%,-50%);
+  }
+
+  .rightPokemonText{
+    position: relative;
+    top: 100%;
+    left: 100%;
+    transform: translate(-50%,-50%);
+  }
+  .pokemonImage{
+    position: absolute;
+    top: 90%;
+    left: 40%;
+    transform: translate(-50%,-50%);
+  }

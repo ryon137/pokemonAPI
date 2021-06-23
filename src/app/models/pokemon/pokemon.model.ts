@@ -5,5 +5,13 @@ export class PokemonModel {
     weight!: string;
     height!: string;
     sprites: any;
-    baseStat!: string;
+    hp!: string;
+    attack!: string;
+    defense!: string;
+    specialAttack!: string;
+    specialDefense!: string;
+    speed!: string;
+    type1!: string;
+    type2!: string;
+    move1!: string;
 }

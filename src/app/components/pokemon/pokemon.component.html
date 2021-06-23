@@ -1,11 +1,22 @@
 <div class="pokemon">
     <div class="pokemon__container">
-    <p class="pokemon__container">{{pokemon.id}}</p>
-    <p class="pokemon__container">{{pokemon.name}}</p>
-    <p class="pokemon__container"> weight: {{pokemon.weight}} lbs</p>
-    <p class="pokemon__container"> height: {{pokemon.height}}</p>
-    <p class="pokemon__container"> base stat: {{pokemon.baseStat}}</p>
-    <img src="{{this.pokemon.sprites.other['official-artwork'].front_default}}" height="120" width="120">  
+    <div class="leftPokemonText">
+        <p class="pokemon__container">No. {{pokemon.id}}</p>
+        <p class="pokemon__container">{{pokemon.name}}</p>
+        <p class="pokemon__container"> Weight: {{pokemon.weight}} lbs</p>
+        <p class="pokemon__container"> Height: {{pokemon.height}}</p>
+        <p class="pokemon__container"> HP: {{pokemon.hp}}</p>
+        <p class="pokemon__container"> Attack: {{pokemon.attack}}</p></div>
+    <div class="rightPokemonText">
+        <p class="pokemon__container"> Defense: {{pokemon.defense}}</p>
+        <p class="pokemon__container"> Special Attack: {{pokemon.specialAttack}}</p>
+        <p class="pokemon__container"> Special Defense: {{pokemon.specialDefense}}</p>
+        <p class="pokemon__container"> Speed: {{pokemon.speed}}</p>
+        <p class="pokemon__container"> Type 1: {{pokemon.type1}}</p>
+        <p class="pokemon__container"> Type 2: {{pokemon.type2}}</p></div>
+    <div class="pokemonImage">
+    <img src="{{this.pokemon.sprites.other['official-artwork'].front_default}}" height="120" width="120"></div>
+    <p class="pokemon__container">Move 1: {{pokemon.move1}}</p>
 </div>
 </div>
 
